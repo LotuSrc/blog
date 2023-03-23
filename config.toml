@@ -1,0 +1,17 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-theme-itheme'
+defaultContentLanguage = "zh-hans" # 默认语言，当前仅支持英文(en)和简体中文(zh-hans)，可以查看'i18n'文件夹
+[params]
+  defaultCover = 'https://example.com/cover.jpg' # 文章未设置封面时的默认封面图
+  email = '451415738@qq.com' # 页脚显示的邮件地址the email address display in the footer
+  [[params.socialMedia]] # 页脚显示的自定义的媒体链接，可添加多个
+    name = 'Github'
+    url = 'https://github.com/LotuSrc'
+  [[params.socialMedia]]
+    name = 'Twitter'
+    url = 'https://twitter.com/some-one'
+  [[params.blogroll]] # 页脚显示的自定义的友情链接，可添加多个
+    name = 'antct'
+    url = 'https://antct.github.io/blog/'
